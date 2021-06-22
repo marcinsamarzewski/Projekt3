@@ -5,7 +5,7 @@ font-family: 'Yellowtail', cursive;*/
 body {
     height: 100vh;
     position: relative;
-    background-image: url('https://i.postimg.cc/wvcJLwQ0/pexels-sebastiaan-stam-1097456.jpg');
+    background-image: url('https://i.postimg.cc/HWPRVBRH/pexels-maur-cio-mascaro-788824.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;    
@@ -45,7 +45,7 @@ body {
     
 }
 .navigation a {
-    color:orange;
+    color:white;
     text-decoration: none;
     font-family: 'Ropa Sans', sans-serif;
     font-size: 20px;
@@ -57,12 +57,19 @@ body {
     text-decoration: none;
     font-size: 30px;
     font-family: 'Yellowtail', cursive;
-    color: orange;
+    color:white;
     
 }
 .splash-inner {
     text-align: center;
     padding: 50px 0 0 0;
     color: white;
+   
+}.splash-inner spam {
+    color:black;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    padding: 0 0 50px 0;
+
    
 }
