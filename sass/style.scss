@@ -1,3 +1,15 @@
+/*font-family: 'Kirang Haerang', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Ropa Sans', sans-serif;
+font-family: 'Yellowtail', cursive;*/
+body {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://i.postimg.cc/Wbbg00t8/44708879-293565407924556-6134263066004553728-n.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;    
+}
 .navigation {
     padding: 12px 0 0 0;
     margin: 0 0 100px 0;
@@ -29,11 +41,14 @@
     left: 50%;
     transform: translateX(-50%);
     background: gray;
+    border-radius: 10%;
     
 }
 .navigation a {
     color:crimson;
     text-decoration: none;
+    font-family: 'Yellowtail', cursive;
+    font-size: 25px;
 }
 .title {
     margin: 5px 0 2px 0;
