@@ -109,7 +109,7 @@ body {
     color:orange;
     font-family: 'Ropa Sans', sans-serif;
 }
-.title-service spam {
+.title-service span {
     color: white;
     font-size: 20px;
     font-family: 'Yellowtail', cursive;
@@ -120,6 +120,14 @@ body {
 .service-box {
     background: darkslategray;
     text-align: center;
+}
+.service-box i {
     font-size: 30px;
+    color: orange;
+}
+.card h3{
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    margin: 0 0 0 0;
     color: white;
 }
