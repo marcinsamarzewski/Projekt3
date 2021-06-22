@@ -57,16 +57,15 @@ body {
     text-decoration: none;
     font-size: 30px;
     font-family: 'Yellowtail', cursive;
-    color:white;
+    color:orange;
     
 }
 .splash-inner {
     text-align: center;
     padding: 50px 0 0 0;
-    color: white;
    
 }.splash-inner spam {
-    color:black;
+    color:orange;
     font-family: 'Yellowtail', cursive;
     font-size: 30px;
 }
@@ -74,4 +73,33 @@ body {
     font-size: 80px;
     color:darkslategray;
     font-family: 'Ropa Sans', sans-serif;
+    margin: 30px 0 20px 0;
+}
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-color: inherit;
+    background-position: 100% 0;
+    background-size: 300%;
+    font-size: 25px;
+}
+.btn-one {
+    border-color:black;
+    color:white;
+    background-image: linear-gradient(45deg, darkslategray 50%, transparent 50%);
+}
+.btn:hover {
+    background-position: 0 100%;
+    color:orange;
+    transition: all 2s;
 }
