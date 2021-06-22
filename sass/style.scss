@@ -109,7 +109,7 @@ body {
     color:orange;
     font-family: 'Ropa Sans', sans-serif;
     margin: 10px 0 0 0;
-    padding: 1px 0 0 0;
+    padding: 1px 0  0;
 }
 .title-service span {
     color: white;
@@ -122,14 +122,22 @@ body {
 .service-box {
     background: darkslategray;
     text-align: center;
+    padding: 0 20px 10px 0;
 }
 .service-box i {
     font-size: 30px;
     color: orange;
 }
 .card h4{
-    font-family: 'Yellowtail', cursive;
+    font-family: 'Ropa Sans', sans-serif;
     font-size: 30px;
-    margin: 0 0 0 0;
+    margin: 0 0 5px 0;
     color: white;
+}
+.card span{
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;
+    margin: 0 0 0 0;
+    color: orange;
+    margin: 0 0 2px 0;
 }
