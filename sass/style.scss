@@ -143,7 +143,7 @@ body {
     margin: 0 0 5px 0;
 }
 .title-portfolio {
-    background:dimgray;
+    background: #576574;
     color:orange;
     font-family: 'Ropa Sans', sans-serif;
     text-align: center;
@@ -179,3 +179,11 @@ body {
 .portfolio-box {
     padding: 5px;
 }
+.media-box {
+    background: orange;
+    text-align: center;
+    margin: 20px 15px;
+    font-size: 20px;
+    color: darkslategrey;
+    font-family: 'Permanent Marker', cursive;
+}   
