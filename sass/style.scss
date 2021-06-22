@@ -6,21 +6,21 @@
     padding: 0;
     margin: 0;
     list-style-type: none; 
-  }
+}
 
 .navigation ul li {
     display: inline-block;
     margin: 0 36px 0 0;
     position: relative;
     text-decoration: none;
-  }
+ }
 .navigation ul ul li {
     display: block;
     margin: 0 0 12px 0; 
-  }  
+}  
 .navigation ul ul {
     display: none;
-  }
+}
 .navigation li:hover ul {
     display: block;
     text-align: center;
@@ -30,13 +30,16 @@
     transform: translateX(-50%);
     background: gray;
     
-  }
+}
 .navigation a {
     color:crimson;
     text-decoration: none;
-  }
+}
 .title {
     margin: 5px 0 2px 0;
+}
+.title a{
+    text-decoration: none;
 }
 .splash-inner {
     text-align: center;
