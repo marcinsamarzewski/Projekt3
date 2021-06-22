@@ -104,15 +104,22 @@ body {
     transition: all 2s;
 }
 .title-service {
-    background: gray;
+    background: darkslategray;
     text-align: center;
     color:orange;
     font-family: 'Ropa Sans', sans-serif;
 }
 .title-service spam {
-    color: darkslategray;
+    color: white;
     font-size: 20px;
+    font-family: 'Yellowtail', cursive;
 }
 .title-service h2 {
     margin: 30px 0 0 0;
+}
+.service-box {
+    background: darkslategray;
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
