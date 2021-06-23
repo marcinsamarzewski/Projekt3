@@ -188,6 +188,9 @@ body {
     font-size: 20px;
     text-align: center;
     padding: 10px 0 0 0;
+    position:absolute;
+    left:50%;
+    bottom: 25%;
 }  
 .social-media li{
     font-size: 0;
@@ -195,4 +198,10 @@ body {
 .social-media i{
     font-size: 20px;
     color: white;
+    background: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    padding: 5px 0 0 6px;
 }
